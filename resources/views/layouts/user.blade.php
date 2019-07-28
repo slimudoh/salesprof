@@ -28,8 +28,9 @@
             <div class="row">
                 <div class="col-lg-9 col-md-12 text-lg-left mb-2 mb-lg-0">
                     <ul class="header-info d-inline-block">
-                        <li><a href="#"><i class="fas fa-phone"></i>+1 514-286-4242</a></li>
-                        <li><a href="#"><i class="fas fa-envelope"></i>example@example.com</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i>+234-7038295419, +234-9058483487
+                            </a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i>mickey64all@gmail.com</a></li>
                         {{-- <li><a href="#"><i class="fas fa-question"></i>Ask Your Question</a></li> --}}
                     </ul>
                 </div>
