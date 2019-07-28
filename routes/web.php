@@ -17,12 +17,12 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/about', 'HomeController@about')->name('about');
+Route::get('/about-us', 'HomeController@about')->name('about');
 
-Route::get('/services', 'HomeController@services')->name('services');
+Route::get('/our-services', 'HomeController@services')->name('services');
 
-Route::get('/training', 'HomeController@training')->name('training');
+Route::get('/our-trainings', 'HomeController@training')->name('training');
 
-Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/contact-us', 'HomeController@contact')->name('contact');
 
 Route::get('/admin', 'AdminController@admin')->name('admin');
