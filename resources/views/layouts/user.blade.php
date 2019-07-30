@@ -7,7 +7,8 @@
     <meta name="keywords" content="Salesprof">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/x-icon" />
-    <title>Sales Prof</title>
+    {{-- <title>Sales Prof</title> --}}
+    @yield('title')
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -64,13 +65,35 @@
                     <div class="col-lg-10 col-md-10 d-none d-lg-block text-right">
                         <nav class="main-menu">
                             <ul>
-                                    <li class="active">
-                                            <a href="/">Home</a>
-                                        </li>
-                                        <li><a href="/about-us">About Us</a></li>
-                                        <li><a href="/our-services">Our Services</a></li>
-                                        <li><a href="/our-trainings">Training</a></li>
-                                        <li><a href="/contact-us">Contact</a></li>
+                                    @if ($name == "home")
+                                        <li class="active"><a href="/">Home</a></li>                                      
+                                    @else
+                                        <li><a href="/">Home</a></li> 
+                                    @endif
+
+                                    @if ($name == "about")
+                                    <li class="active"><a href="/about-us">About Us</a></li>                                   
+                                    @else
+                                    <li><a href="/about-us">About Us</a></li>
+                                    @endif
+
+                                    @if ($name == "service")
+                                    <li class="active"><a href="/our-services">Our Services</a></li>                                
+                                    @else
+                                    <li><a href="/our-services">Our Services</a></li>
+                                    @endif
+
+                                    @if ($name == "train")
+                                    <li class="active"><a href="/our-trainings">Training</a></li>                                      
+                                    @else
+                                    <li><a href="/our-trainings">Training</a></li>
+                                    @endif
+
+                                    @if ($name == "contact")
+                                    <li class="active"><a href="/contact-us">Contact</a></li>                                 
+                                    @else
+                                    <li><a href="/contact-us">Contact</a></li>
+                                    @endif                                     
                             </ul>
                         </nav>
                         {{-- <ul class="header-right-bar d-lg-inline-block d-none">
@@ -92,13 +115,35 @@
                             <div class="mobile-menu">
                                 <nav class="mobile-menu-active">
                                     <ul>
-                                        <li class="active">
-                                            <a href="/">Home</a>
-                                        </li>
+                                            @if ($name == "home")
+                                            <li class="active"><a href="/">Home</a></li>                                      
+                                        @else
+                                            <li><a href="/">Home</a></li> 
+                                        @endif
+    
+                                        @if ($name == "about")
+                                        <li class="active"><a href="/about-us">About Us</a></li>                                   
+                                        @else
                                         <li><a href="/about-us">About Us</a></li>
+                                        @endif
+    
+                                        @if ($name == "service")
+                                        <li class="active"><a href="/our-services">Our Services</a></li>                                
+                                        @else
                                         <li><a href="/our-services">Our Services</a></li>
+                                        @endif
+    
+                                        @if ($name == "train")
+                                        <li class="active"><a href="/our-trainings">Training</a></li>                                      
+                                        @else
                                         <li><a href="/our-trainings">Training</a></li>
+                                        @endif
+    
+                                        @if ($name == "contact")
+                                        <li class="active"><a href="/contact-us">Contact</a></li>                                 
+                                        @else
                                         <li><a href="/contact-us">Contact</a></li>
+                                        @endif  
                                     </ul>
                                 </nav>
                                 

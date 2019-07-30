@@ -1,4 +1,10 @@
-@extends('layouts.user')
+@extends('layouts.user', [
+    'name' => 'contact',
+])
+
+
+@section('title')
+<title>Salesprof - Contact Us</title>
 
 @section('content')
     <!-- Start: Breadcrumb Area

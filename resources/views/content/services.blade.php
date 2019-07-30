@@ -1,4 +1,10 @@
-@extends('layouts.user')
+@extends('layouts.user',[
+    'name' => 'service',
+])
+
+
+@section('title')
+<title>Salesprof - Our Services</title>
 
 @section('content')
 

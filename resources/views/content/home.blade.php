@@ -1,4 +1,9 @@
-@extends('layouts.user')
+@extends('layouts.user', [
+    'name' => 'home',
+])
+
+@section('title')
+<title>Salesprof - Home</title>
 
 @section('content')
 
@@ -14,7 +19,7 @@
                             <figcaption>
                                 <div class="content">
                                     <div class="container inner-content text-left">
-                                        <h1>We Build Your<br><span>Business</span> IDEA</h1>
+                                    <h1>We Build Your<br><span>Business</span> IDEA</h1>
                                         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered injected humour dummy now.</p>
                                         <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                     </div>
