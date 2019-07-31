@@ -72,15 +72,23 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6 single-contact">
                         <img src="{{ asset('img/icons/icon01.png') }}">
-                        <p><b>10/45 Beer Street Heaven,</b><br>California Floor, USA 1208</p>
+                        <p>
+                            <b>
+                                
+                           6b, Atlantic Boulevard Ocean Bay Estate, Off Orchid Hotel Road, Lekki, 
+                                    Lagos.
+                            </b>
+                            
+                            
+                            </p>
                     </div>
                     <div class="col-md-4 col-sm-6 single-contact">
                         <img class="pt-2" src="{{ asset('img/icons/icon02.png') }}">
-                        <p><b>+001-2156-2459</b><br>example@mail.com</p>
+                        <p><b>mickey64all@gmail.com</b></p>
                     </div>
                     <div class="col-md-4 col-sm-6 single-contact">
-                        <img src="{{ asset('img/icons/icon03.png') }}">
-                        <p><b>Free Delivery</b><br>On order over $57.00</p>
+                        <img src="{{ asset('img/call.png') }}">
+                        <p><b>+234-7038295419,<br> +234-9058483487</b></p>
                     </div>
                 </div>
             </div>
@@ -167,7 +175,7 @@
 
      <!-- Start: Our Features
     ============================= -->
-    <section id="ourfeatures" class="section-padding">
+    {{-- <section id="ourfeatures" class="section-padding">
         <div class="container">            
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
@@ -303,7 +311,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End: Our Features
     ============================= -->
 
@@ -312,7 +320,7 @@
     <!-- Start: Latest Projects
     ============================= -->
 
-    <section id="latest-projects" class="section-padding project-masonary">
+    {{-- <section id="latest-projects" class="section-padding project-masonary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
@@ -410,7 +418,7 @@
             </div>
             
         </div>
-    </section>
+    </section> --}}
 
     <!-- End: Latest Projects
     ============================= -->
@@ -419,7 +427,7 @@
     <!-- Start: Projects Future
     ============================= -->
 
-    <section id="projects-fututre" class="section-padding">
+    {{-- <section id="projects-fututre" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
@@ -496,7 +504,7 @@
             </div>
             
         </div>
-    </section>
+    </section> --}}
 
     <!-- End: Projects Future
     ============================= -->
@@ -506,7 +514,7 @@
     <!-- Start: Our Gallery
     ============================= -->
 
-    <section id="our-gallery" class="section-padding-top">
+    {{-- <section id="our-gallery" class="section-padding-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
@@ -584,7 +592,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End: Our Gallery
     ============================= -->
@@ -592,7 +600,7 @@
     <!-- Start: Call to action
     ============================= -->
 
-    <section id="cta">
+    {{-- <section id="cta">
         <div class="container">
             <div class="row cta">
                 <div class="col-lg-9 col-md-7 col-12 text-md-left text-center mb-md-0 mb-4">
@@ -604,7 +612,7 @@
                 </div>
             </div>
         </div>
-    </section>  
+    </section>   --}}
 
     <!-- End: Call to action
     ============================= -->
@@ -612,7 +620,7 @@
     <!-- Start: Pricing
     ============================= -->
 
-    <section id="pricing" class="section-padding">
+    {{-- <section id="pricing" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">
@@ -672,13 +680,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End: Pricing
     ============================= -->
 
     <!-- Start: Testimonial
     ============================= -->
-
+{{-- 
     <section id="testimonial" class="section-padding">
         <div class="container">
             <div class="row">
@@ -755,7 +763,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End: Testimonial
     ============================= -->
@@ -763,7 +771,7 @@
     <!-- Start: Creative Team
     ============================= -->
 
-    <section id="team" class="section-padding-top mb-5">
+    {{-- <section id="team" class="section-padding-top mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">
@@ -861,7 +869,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End:  Creative Team
     ============================= -->
@@ -869,7 +877,7 @@
     <!-- Start: Fun Fact
     ============================= -->
 
-    <section id="fun-fact" class="section-padding-top">
+    {{-- <section id="fun-fact" class="section-padding-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 single-box light-bg bb">
@@ -894,7 +902,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>  --}}
 
     <!-- End:  Fun Fact
     ============================= -->
@@ -902,7 +910,7 @@
     <!-- Start: Latest News
     ============================= -->
 
-    <section id="latest-news" class="section-padding">
+    {{-- <section id="latest-news" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">
@@ -983,7 +991,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End:  Latest News
     ============================= -->

@@ -33,7 +33,7 @@
     <section id="portfolio" class="section-padding project-masonary portfolio-page">
         <div class="container">
 
-            <div class="row project-tab">
+            {{-- <div class="row project-tab">
                 <div class="col-md-12">
                     <ul class="project-tab-sorting sorting-btn" id="filter">
                         <li><a href="#" data-group="Show All" class="active"><i class="fas fa-align-justify"></i>All Business</a></li>
@@ -43,7 +43,7 @@
                         <li><a href="#" data-group="More"><i class="fas fa-euro-sign"></i>Finance</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
             <div class="row project" id="grid">
                 <div class="col-lg-4 col-md-6" data-groups='["Corporate", "Insurance", "Show All"]'>
                     <article class="portfolio-post">
@@ -287,7 +287,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-12">
                     <nav class="portfolio-pagination" aria-label="Page navigation example">
                         <ul class="pagination justify-content-center">
@@ -303,7 +303,7 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
+            </div> --}}
             
         </div>
     </section>
@@ -389,138 +389,5 @@
     <!-- End: Excluesive
     ============================= -->
 
-    <!-- Start: Footer Sidebar
-    ============================= -->
-    <footer id="footer-widgets">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-4">
-                    <aside class="widget widget_about">
-                        <div class="footer-logo"><img src="assets/img/logo.png')}}" alt=""></div>
-                        <p>There are many variations of dummy passages of Lorem Ipsum a available, but the majority have suffered that is alteration in some that form  injected humour or randomised.</p>
-                        <ul class="widget-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                        
-                    </aside>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 mb-lg-0 mb-4">
-                    <aside class="widget widget_links">
-                        <h4 class="widget-title">Usefull Links</h4>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </aside>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-md-0 mb-4">
-                    <aside class="widget widget_recent">
-                        <h4 class="widget-title">Latest News</h4>
-                        <ul>
-                            <li class="latest-news">
-                                <a href="#">
-                                   <img src="{{ asset('img/news-widget/news-widget-01.jpg')}}" alt="">
-                                    <h5>Top Energy Trend Business</h5>
-                                    <p>August 15, 2017</p>
-                                </a>
-                            </li>
-                            <li class="latest-news">
-                                <a href="#">
-                                   <img src="{{ asset('img/news-widget/news-widget-02.jpg')}}" alt="">
-                                    <h5>Chief Financial Officer Role</h5>
-                                    <p>August 15, 2017</p>
-                                </a>
-                            </li>
-                            <li class="latest-news">
-                                <a href="#">
-                                   <img src="{{ asset('img/news-widget/news-widget-03.jpg')}}" alt="">
-                                    <h5>Our to Sustainability Team</h5>
-                                    <p>August 15, 2017</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </aside>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <aside class="widget widget_contact">
-                        <h4 class="widget-title">Contact information</h4>
-                        <ul>
-                            <li><i class="fas fa-map-marker"></i>1102 Saint Marys, Jackson Blvd, Chicago, United States</li>
-                            <li><i class="fas fa-envelope"></i>exampleemail.com</li>
-                            <li><i class="fas fa-phone"></i>(123) 456 789 1002</li>
-                        </ul>
-                        <form class="#" action="#">
-                            <input type="text" placeholder="Enter your email">
-                            <button class="subscribe-btn boxed-btn" type="submit">Subscribe</button>
-                        </form>
-                    </aside>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-    <!-- End: Footer Sidebar
-    ============================= -->
-
-    <!-- Start: Footer Copyright
-    ============================= -->
-
-    <section id="footer-copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-12 text-lg-left text-center mb-lg-0 mb-3 copyright-text"><p>Copyrights © 2018 All Rights Reserved, Powered by <a href="#">Conceptly</a>.</p></div>
-                <div class="col-lg-6 col-12">
-                    <ul class="text-lg-right text-center payment-method">
-                        <li><a href="#"><i class="fab fa-paypal"></i></a></li>
-                        <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
-                        <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
-                        <li><a href="#"><i class="fab fa-cc-amazon-pay"></i></a></li>
-                    </ul>
-                    <a href="#" class="scrollup boxed-btn"><i class="fas fa-arrow-up"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End: Footer Copyright
-    ============================= -->
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-
-    <!-- Smooth Scroll -->
-    <script src="../../../../cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="../../../../cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-
-    <!-- Map Script -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY"></script>
-    <script src="assets/js/map-script.js"></script> -->
-
-    <!-- Custom Script -->
-    <script src="assets/js/custom.js"></script>
-</body>
-
-
-<!-- Mirrored from nayrathemes.com/demo/html/conceptly/portfolio-3-column.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Jul 2019 21:22:42 GMT -->
-</html>
 
 @endsection

@@ -156,7 +156,7 @@
 
     <!-- Start: Fun Fact
     ============================= -->
-
+{{-- 
     <section id="fun-fact">
         <div class="container">
             <div class="row">
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End:  Fun Fact
     ============================= -->

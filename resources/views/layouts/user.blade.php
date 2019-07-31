@@ -253,8 +253,8 @@
     <section id="footer-copyright">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12 text-lg-left text-center mb-lg-0 mb-3 copyright-text"><p>Copyrights © 2018 All Rights Reserved, Powered by <a href="#">Conceptly</a>.</p></div>
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 text-lg-left text-center mb-lg-0 mb-3 copyright-text"><p>Copyrights © 2018 All Rights Reserved, Softprof.</p></div>
+                {{-- <div class="col-lg-6 col-12">
                     <ul class="text-lg-right text-center payment-method">
                         <li><a href="#"><i class="fab fa-paypal"></i></a></li>
                         <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
@@ -262,7 +262,7 @@
                         <li><a href="#"><i class="fab fa-cc-amazon-pay"></i></a></li>
                     </ul>
                     <a href="#" class="scrollup boxed-btn"><i class="fas fa-arrow-up"></i></a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

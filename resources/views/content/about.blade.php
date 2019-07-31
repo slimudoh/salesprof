@@ -110,7 +110,7 @@
 
      <!-- Start: Our Features
     ============================= -->
-    <section id="ourfeatures" class="section-padding">
+    {{-- <section id="ourfeatures" class="section-padding">
         <div class="container">            
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
@@ -246,14 +246,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End: Our Features
     ============================= -->
 
     <!-- Start: Creative Team
     ============================= -->
 
-    <section id="team" class="section-padding-top mb-5">
+    {{-- <section id="team" class="section-padding-top mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">
@@ -351,7 +351,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End:  Creative Team
     ============================= -->
@@ -359,7 +359,7 @@
     <!-- Start: Fun Fact
     ============================= -->
 
-    <section id="fun-fact" class="section-padding-top">
+    {{-- <section id="fun-fact" class="section-padding-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 single-box light-bg bb">
@@ -384,7 +384,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- End:  Fun Fact
     ============================= -->

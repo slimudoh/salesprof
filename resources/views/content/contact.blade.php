@@ -95,24 +95,4 @@
 
     <!-- End: Contact Info
     ============================= -->
-
-    <!-- Start: Call to action
-    ============================= -->
-
-    <section id="cta">
-        <div class="container">
-            <div class="row cta">
-                <div class="col-lg-9 col-md-7 col-12 text-md-left text-center mb-md-0 mb-4">
-                    <h3>Become a Part of Community !</h3>
-                    <p>Get in touch with us and send some basic info for a quick quote</p>
-                </div>
-                <div class="col-lg-3 col-md-5 col-12 text-md-right text-center">
-                    <a href="#" class="boxed-btn purchase-btn"><i class="fas fa-shopping-cart"></i>purchase now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End: Call to action
-    ============================= -->
 @endsection
