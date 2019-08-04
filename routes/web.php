@@ -21,7 +21,7 @@ Route::get('/about-us', 'HomeController@about')->name('about');
 
 Route::get('/our-services', 'HomeController@services')->name('services');
 
-Route::get('/our-trainings', 'HomeController@training')->name('training');
+Route::get('/our-logistics', 'HomeController@training')->name('training');
 
 Route::get('/contact-us', 'HomeController@contact')->name('contact');
 

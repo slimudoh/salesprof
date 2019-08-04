@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-lg-2 col-6">
                         <div class="logo main">
-                            <a href="index-2.html">
+                            <a href="/">
                                 <img class="responsive" src="{{ asset('img/logo.png') }}" alt="logo">
                             </a>
                         </div>
@@ -65,35 +65,43 @@
                     <div class="col-lg-10 col-md-10 d-none d-lg-block text-right">
                         <nav class="main-menu">
                             <ul>
-                                    @if ($name == "home")
-                                        <li class="active"><a href="/">Home</a></li>                                      
+                                    @if (isset($name))
+                                        @if ($name == "home")
+                                            <li class="active"><a href="/">Home</a></li>                                      
+                                        @else
+                                            <li><a href="/">Home</a></li> 
+                                        @endif
+
+                                        @if ($name == "about")
+                                        <li class="active"><a href="/about-us">About Us</a></li>                                   
+                                        @else
+                                        <li><a href="/about-us">About Us</a></li>
+                                        @endif
+
+                                        @if ($name == "service")
+                                        <li class="active"><a href="/our-services">Our Services</a></li>                                
+                                        @else
+                                        <li><a href="/our-services">Our Services</a></li>
+                                        @endif
+
+                                        @if ($name == "train")
+                                        <li class="active"><a href="/our-logistics">Logistics</a></li>                                      
+                                        @else
+                                        <li><a href="/our-logistics">Logistics</a></li>
+                                        @endif
+
+                                        @if ($name == "contact")
+                                        <li class="active"><a href="/contact-us">Contact</a></li>                                 
+                                        @else
+                                        <li><a href="/contact-us">Contact</a></li>
+                                        @endif                                     
                                     @else
                                         <li><a href="/">Home</a></li> 
+                                        <li><a href="/about-us">About Us</a></li>
+                                        <li><a href="/our-services">Our Services</a></li>
+                                        <li><a href="/our-logistics">Logistics</a></li>
+                                        <li><a href="/contact-us">Contact</a></li>
                                     @endif
-
-                                    @if ($name == "about")
-                                    <li class="active"><a href="/about-us">About Us</a></li>                                   
-                                    @else
-                                    <li><a href="/about-us">About Us</a></li>
-                                    @endif
-
-                                    @if ($name == "service")
-                                    <li class="active"><a href="/our-services">Our Services</a></li>                                
-                                    @else
-                                    <li><a href="/our-services">Our Services</a></li>
-                                    @endif
-
-                                    @if ($name == "train")
-                                    <li class="active"><a href="/our-trainings">Training</a></li>                                      
-                                    @else
-                                    <li><a href="/our-trainings">Training</a></li>
-                                    @endif
-
-                                    @if ($name == "contact")
-                                    <li class="active"><a href="/contact-us">Contact</a></li>                                 
-                                    @else
-                                    <li><a href="/contact-us">Contact</a></li>
-                                    @endif                                     
                             </ul>
                         </nav>
                         {{-- <ul class="header-right-bar d-lg-inline-block d-none">
@@ -115,35 +123,43 @@
                             <div class="mobile-menu">
                                 <nav class="mobile-menu-active">
                                     <ul>
+                                        @if (isset($name))
                                             @if ($name == "home")
-                                            <li class="active"><a href="/">Home</a></li>                                      
+                                                <li class="active"><a href="/">Home</a></li>                                      
+                                            @else
+                                                <li><a href="/">Home</a></li> 
+                                            @endif
+        
+                                            @if ($name == "about")
+                                            <li class="active"><a href="/about-us">About Us</a></li>                                   
+                                            @else
+                                            <li><a href="/about-us">About Us</a></li>
+                                            @endif
+        
+                                            @if ($name == "service")
+                                            <li class="active"><a href="/our-services">Our Services</a></li>                                
+                                            @else
+                                            <li><a href="/our-services">Our Services</a></li>
+                                            @endif
+        
+                                            @if ($name == "train")
+                                            <li class="active"><a href="/our-logistics">Logistics</a></li>                                      
+                                            @else
+                                            <li><a href="/our-logistics">Logistics</a></li>
+                                            @endif
+        
+                                            @if ($name == "contact")
+                                            <li class="active"><a href="/contact-us">Contact</a></li>                                 
+                                            @else
+                                            <li><a href="/contact-us">Contact</a></li>
+                                            @endif  
                                         @else
                                             <li><a href="/">Home</a></li> 
+                                            <li><a href="/about-us">About Us</a></li>
+                                            <li><a href="/our-services">Our Services</a></li>
+                                            <li><a href="/our-logistics">Logistics</a></li>
+                                            <li><a href="/contact-us">Contact</a></li>
                                         @endif
-    
-                                        @if ($name == "about")
-                                        <li class="active"><a href="/about-us">About Us</a></li>                                   
-                                        @else
-                                        <li><a href="/about-us">About Us</a></li>
-                                        @endif
-    
-                                        @if ($name == "service")
-                                        <li class="active"><a href="/our-services">Our Services</a></li>                                
-                                        @else
-                                        <li><a href="/our-services">Our Services</a></li>
-                                        @endif
-    
-                                        @if ($name == "train")
-                                        <li class="active"><a href="/our-trainings">Training</a></li>                                      
-                                        @else
-                                        <li><a href="/our-trainings">Training</a></li>
-                                        @endif
-    
-                                        @if ($name == "contact")
-                                        <li class="active"><a href="/contact-us">Contact</a></li>                                 
-                                        @else
-                                        <li><a href="/contact-us">Contact</a></li>
-                                        @endif  
                                     </ul>
                                 </nav>
                                 
@@ -189,7 +205,7 @@
                                     </li>
                                     <li><a href="/about-us">About Us</a></li>
                                     <li><a href="/our-services">Our Services</a></li>
-                                    <li><a href="/our-trainings">Training</a></li>
+                                    <li><a href="/our-logistics">Logistics</a></li>
                                     <li><a href="/contact-us">Contact</a></li>
                         </ul>
                     </aside>

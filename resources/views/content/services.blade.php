@@ -14,7 +14,7 @@
                 <div class="col-12">
                     <h1>Our Services</h1>
                     <ul class="breadcrumb-nav list-inline">
-                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="active">Our Services</li>
                     </ul>
                 </div>
@@ -33,11 +33,20 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
                     <div class="section-title">
-                        <h2>Our Services <span></span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</p>
+                        <h2>OUR SERVICES <span></span></h2>
+                        <p>SALESPROF approaches every job with utmost dedication by ensuring that not stone is left unturned in the expeditious delivery of goods and services.</p>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                    <div class="col-lg-8 col-md-10 col-12">                    
+                        <div class="section-title">
+                            <h2>NATURE OF SERVICE DELIVERY<span></span></h2>
+                            <p>We have in recent times built a reputation in each of our specific areas of specialization such as</p>
+                        </div>
+                    </div>
+                </div>
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
@@ -49,10 +58,9 @@
                                     <div class="service-icon">
                                         <i class="fas fa-cubes"></i>
                                     </div>
-                                    <h3>Design<br> and Developing </h3>
+                                    <h3>Sales and Marketing <br>Management </h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -67,10 +75,9 @@
                                     <div class="service-icon">
                                         <i class="fas fa-handshake"></i>
                                     </div>
-                                    <h3>Designer <br> Creative Team</h3>
+                                    <h3>Sales <br>Promotion</h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -85,10 +92,9 @@
                                     <div class="service-icon">
                                         <i class="fas fa-laptop"></i>
                                     </div>
-                                    <h3>Designer <br> Fast Support</h3>
+                                    <h3>Distribution</h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -103,10 +109,9 @@
                                     <div class="service-icon">
                                         <i class="fab fa-audible"></i>
                                     </div>
-                                    <h3>Business and <br> Technology Management</h3>
+                                    <h3>Consultancy </h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -121,16 +126,15 @@
                                     <div class="service-icon">
                                         <i class="fab fa-stack-overflow"></i>
                                     </div>
-                                    <h3>Business <br> Solutions and Consulting</h3>
+                                    <h3>Other areas</h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                {{-- <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="service-box">                        
                         <figure>
                            <img src="{{ asset('img/service/service06.jpg')}}" alt="">
@@ -146,7 +150,7 @@
                                 </div>
                             </figcaption>
                         </figure>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

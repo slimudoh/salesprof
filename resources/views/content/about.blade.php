@@ -14,7 +14,7 @@
                 <div class="col-12">
                     <h1>About Us</h1>
                     <ul class="breadcrumb-nav list-inline">
-                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="active">About Us</li>
                     </ul>
                 </div>
@@ -30,23 +30,22 @@
     <section id="about-us" class="section-padding-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mb-lg-0 mb-5">
+                <div class="col-lg-12 mb-lg-0 mb-5">
 
                     <div class="section-title section-before-border">
-                        <h2>Who we are<span></span></h2>
-                        <p>Publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                        <h2>OUR PROFILE  </h2>                      
+                      
                     </div>
 
                     <div class="section-info">
-                        <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Integer adipiscing erat eget risus sollicitudin pellentesque et non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>SALESPROF is a company registered as a wholly for services such as Sales and Marketing Management, Sales Promotion, Distribution and Consultancy and have massively excelled in its qualitative services since its registration as a business in recent times. </p>
                         <br>
-                        <p>sollicitudin pellentesque et non erat. Maecenas nibh dolor, malesuada et that.</p>
+                        <p>The development of our service delivery has been carefully structured to guarantee maximum job satisfaction at all time by our seasoned staff as professionalism is maintained on every job executed.</p>
                     </div>
-                    <a href="#" class="boxed-btn">Load More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="col-lg-6">
+                {{-- <div class="col-lg-6">
                    <img src="{{ asset('img/mockup.png')}}" alt="">
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -59,52 +58,57 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-6 mb-lg-0 mb-5">
+                <div class="col-lg-12 mb-lg-0 mb-5">
                     <div class="what-we-do">
-                        <h2>What We Do</h2>
+                        <h2>OUR MISSION STATEMENT</h2>
                         <hr class="devider">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod that  a tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve niam, dummy nostruden exercitation ullamco laboris nisi ut aliquip consect etur taht adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloe remagna aliqua. Ut enim ad minim veniam, quis nostruden exercitations.</p>
-                        <a href="#" class="boxed-btn">CONTACT US</a>
+                        <p>To build and retain a high profile clientele through effective and efficient delivery of satisfactory services as a basis for quality management at all times: based on professionalism, expertise and dedication to duty.
+
+                            </p>
+                        <a href="/contact-us" class="boxed-btn">CONTACT US</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="skills">
-                        <label>Photography</label>
-                        <div class="progress">
-                             <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                              <span>90%</span>
-                            </div>
-                        </div>
-                        <label>Branding</label>
-                        <div class="progress">
-                             <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 73%;">
-                              <span>73%</span>
-                            </div>
-                        </div>
-                        <label>Development</label>
-                        <div class="progress">
-                             <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 79%;">
-                              <span>79%</span>
-                            </div>
-                        </div>
-                        <label>Presentations</label>
-                        <div class="progress">
-                             <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
-                              <span>95%</span>
-                            </div>
-                        </div>
-                        <label>Marketing</label>
-                        <div class="progress">
-                             <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                              <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
 
         </div>
     </section>
+
+    <section id="what-we-do" class="section-padding">
+            <div class="container">
+    
+                <div class="row">
+                    <div class="col-lg-6 mb-lg-0 mb-5">
+                        <div class="what-we-do">
+                            <h2>OUR MANAGEMENT TEAM</h2>
+                            <hr class="devider">
+                            <p>Being a young company, the dedicated and vibrant staffs’ dedication over the year has also ensured our growth as a team for this progressive Enterprise and we are ably led by .     
+                            </p>
+
+                            <ul>
+                                <li>NAME:		        MR. MICHAEL INAH</li>
+                                <li>POSITION:		MANAGING DIRECTOR/CEO</li>
+                                <li>NATIONALITY:		NIGERIAN</li>                          
+                            </ul>
+
+
+
+                            <p>                          
+                                Michael Inah holds a bachelor’s degree (BSc) in Computer Science from a prestigious University.  His versatility in the distribution and marketing business has been of great value to the Enterprise. </p>
+                                <br><br>
+                                <p> He worked at the GSK Consumers Plc. and UAC Foods Limited between the periods of 2010 – 2016 as a very key account officer. He later proceeded to join Natures Goodness Limited sometime in October, 2016 where he worked as a Regional Sales Manager. </p>
+                                <br><br>
+                                <p>He proceeded to Lagos Business School for further studies and experience where the obtained a Certificate in Account Management.  He has shown he has experience in accounting as well as Sales Manager and has all the capacity and acumen to ensure qualitative services to the businesses’ teeming customers</p>
+                        </div>
+                    </div>
+                       <div class="col-lg-6">
+                   <img src="{{ asset('img/mockup.png')}}" alt="">
+                </div>
+                  
+                </div>
+    
+            </div>
+        </section>
     <!-- End: Our skill
     ============================= -->
 

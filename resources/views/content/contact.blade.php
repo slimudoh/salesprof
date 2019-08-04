@@ -16,7 +16,7 @@
                 <div class="col-12">
                     <h1>Contact Us</h1>
                     <ul class="breadcrumb-nav list-inline">
-                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="active">Contact</li>
                     </ul>
                 </div>

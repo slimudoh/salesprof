@@ -105,13 +105,18 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
                     <div class="section-title">
-                        <h2>Our Services <span></span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</p>
+                        <h2>SALESPROF<span></span></h2>
+                        <p>SALESPROF is a company registered as a wholly for services such as Sales and Marketing Management, Sales Promotion, Distribution and Consultancy and have massively excelled in its qualitative services since its registration as a business in recent times. </p>
+
+                        <br><br>
+                        <p>
+                            The development of our service delivery has been carefully structured to guarantee maximum job satisfaction at all time by our seasoned staff as professionalism is maintained on every job executed.
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
                     <div class="service-box">                        
                         <figure>
@@ -121,10 +126,9 @@
                                     <div class="service-icon">
                                         <i class="fas fa-cubes"></i>
                                     </div>
-                                    <h3>Design<br> and Developing </h3>
+                                    <h3>Sales <br> and Marketing Mgt </h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -139,10 +143,9 @@
                                     <div class="service-icon">
                                         <i class="fas fa-handshake"></i>
                                     </div>
-                                    <h3>Designer <br> Creative Team</h3>
+                                    <h3>Sales <br>Promotion </h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
@@ -157,16 +160,15 @@
                                     <div class="service-icon">
                                         <i class="fas fa-laptop"></i>
                                     </div>
-                                    <h3>Designer <br> Fast Support</h3>
+                                    <h3>Distribution,   <br> and Consultancy </h3>
                                     <div class="devider"></div>
                                     <p>There are many variations of dummy that passages of Lorem Ipsum available but an the majority have suffered that is  dummy alteration in some.</p>
-                                    <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
     <!-- End: Service
@@ -175,14 +177,15 @@
 
      <!-- Start: Our Features
     ============================= -->
-    {{-- <section id="ourfeatures" class="section-padding">
+    <section id="ourfeatures" class="section-padding">
         <div class="container">            
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">                    
                     <div class="section-title">
-                        <h2>Our Features <span></span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</p>
-                    </div>
+                        <h2>OUR SERVICES<span></span></h2>
+                        <p>SALESPROF approaches every job with utmost dedication by ensuring that not stone is left unturned in the expeditious delivery of goods and services.</p>
+                        <br><br>
+                        <p>We have in recent times built a reputation in each of our specific areas of specialization</p>
                 </div>
             </div>
 
@@ -195,7 +198,7 @@
                             </div>
                         </div>
                         <div class="col-9">                                
-                            <h3>Business Growth</h3>
+                            <h3>Sales and Marketing Management</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
@@ -208,7 +211,7 @@
                             </div>
                         </div>
                         <div class="col-9">                                
-                            <h3>Sustainability</h3>
+                            <h3>Sales Promotion</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
@@ -221,7 +224,7 @@
                             </div>
                         </div>
                         <div class="col-9">                                
-                            <h3>Performance</h3>
+                            <h3>Distribution</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
@@ -234,7 +237,7 @@
                             </div>
                         </div>
                         <div class="col-9">                                
-                            <h3>Organization</h3>
+                            <h3>Consultancy </h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
@@ -247,12 +250,12 @@
                             </div>
                         </div>
                         <div class="col-9">                                
-                            <h3>Saving Strategy</h3>
+                            <h3>Other areas</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 features-box pt-3 pb-3">
+                {{-- <div class="col-lg-4 col-md-6 col-sm-12 features-box pt-3 pb-3">
                     <div class="row">
                         <div class="col-3">
                             <div class="features-box-icon">
@@ -264,8 +267,8 @@
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 features-box pt-3">
+                </div> --}}
+                {{-- <div class="col-lg-4 col-md-6 col-sm-12 features-box pt-3">
                     <div class="row">
                         <div class="col-3">
                             <div class="features-box-icon">
@@ -277,8 +280,8 @@
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 features-box pt-3">
+                </div> --}}
+                {{-- <div class="col-lg-4 col-md-6 col-sm-12 features-box pt-3">
                     <div class="row">
                         <div class="col-3">
                             <div class="features-box-icon">
@@ -303,15 +306,12 @@
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-12 more-load">
-                    <!-- Load More Content Button  -->
-                    <a class="load-btn boxed-btn" href="#" id="feature-load-pro"><span id="feature-ti-port-load" class="ti-port-load-hide"></span>Load More <i class="fas fa-angle-down"></i></a>
-                </div>
+               
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- End: Our Features
     ============================= -->
 
@@ -620,18 +620,33 @@
     <!-- Start: Pricing
     ============================= -->
 
-    {{-- <section id="pricing" class="section-padding">
+    <section id="pricing" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-12">
                     <div class="section-title">
-                        <h2>Pricing <span></span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</p>
+                        <h2>OUR CLIENTELE <span></span></h2>
+                        <p>We have within the shortest period of our registration as a business maintained and provided professional services to a wide range of organization, cutting across both private and public sectors of the economy.</p>
+                        <br><br>
+                        <p>We have maintained a track record that is anchored on excellence, dedication to job, transparency and professionalism, which are reflected on the quality of jobs we render.</p>
+                        <br><br>
+
+                        <p>The under-listed are the clients that have enjoyed our efficient services:
+                            <br>
+                            <ul>
+                                <li><b> (1)	GSK CONSUMERS PLC</b></li>
+                                <li><b> (2)	UAC FOODS LIMITED</b></li>
+                                <li><b> (3)	A HOST OF OTHER PRIVATE SATISFIED INDIVIDUALS</b></li>
+                            </ul>
+                           
+                            
+                                                       
+                        </p>                            
                     </div>
                 </div>                
             </div>
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
                     <div class="single-pricing">
                         <div class="pricing">$ <span class="price">29</span><br>Per month</div>
@@ -678,9 +693,9 @@
                         <a href="#" class="boxed-btn">Buy Now</a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
-    </section> --}}
+    </section>
     <!-- End: Pricing
     ============================= -->
 
@@ -998,7 +1013,7 @@
     
     <!-- Start: Our Client
     ============================= -->
-    <section id="our-partners">
+    {{-- <section id="our-partners">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -1033,7 +1048,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
     <!-- End: Our Client
     ============================= -->
 @endsection
