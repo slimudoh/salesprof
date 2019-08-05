@@ -36,16 +36,13 @@
                 <div class="row">
                     <div class="col-lg-12 mb-lg-0 mb-5">
                         <div class="what-we-do">
-                            <h2>OUR MISSION STATEMENT</h2>
+                            {{-- <h2>OUR MISSION STATEMENT</h2> --}}
                             <hr class="devider">
                             <p>SALESPROF has over the year put in place acquired logistics to fast track its operations, for instance, we have:    
                                 </p>
                                 <ul>
                                     <li>(i)	Mini Sales Trucks for efficient delivery of goods </li>
                                     <li> (ii)	Buses and Smaller vehicles for emergency deliveries to  Satisfy our esteemed and valuable customers   </li>
-
-                                        
-                                                                    
                                 </ul>
                         </div>
                     </div>
