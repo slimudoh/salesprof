@@ -21,7 +21,7 @@
                                     <div class="container inner-content text-left">
                                     <h1>We Build Your<br><span>Business</span> IDEA</h1>
                                         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered injected humour dummy now.</p>
-                                        <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                        {{--<a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>--}}
                                     </div>
                                 </div>
                             </figcaption>
@@ -35,7 +35,7 @@
                                     <div class="container inner-content text-center">
                                         <h1>We Build Your<br><span>Business</span> IDEA</h1>
                                         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered injected humour dummy now.</p>
-                                        <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                        {{--<a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>--}}
                                     </div>
                                 </div>
                             </figcaption>
@@ -49,7 +49,7 @@
                                     <div class="container inner-content text-right">
                                         <h1>We Build Your<br><span>Business</span> IDEA</h1>
                                         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered injected humour dummy now.</p>
-                                        <a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                                        {{--<a href="#" class="boxed-btn">Read More <i class="fas fa-arrow-right"></i></a>--}}
                                     </div>
                                 </div>
                             </figcaption>
@@ -74,9 +74,11 @@
                         <img src="{{ asset('img/icons/icon01.png') }}">
                         <p>
                             <b>
-                                
-                           6b, Atlantic Boulevard Ocean Bay Estate, Off Orchid Hotel Road, Lekki, 
-                                    Lagos.
+
+                                2, Osho Street,
+                                Opebi (Near Adebola House Roundabout)
+                                Ikeja, Lagos
+
                             </b>
                             
                             
@@ -84,10 +86,11 @@
                     </div>
                     <div class="col-md-4 col-sm-6 single-contact">
                         <img class="pt-2" src="{{ asset('img/icons/icon02.png') }}">
-                        <p><b>mickey64all@gmail.com</b></p>
+                        <p><b> info@salesprof.com.ng
+                            </b></p>
                     </div>
                     <div class="col-md-4 col-sm-6 single-contact">
-                        <img src="{{ asset('img/call.png') }}">
+                        <img src="{{ asset('img/icons/call.png') }}">
                         <p><b>+234-7038295419,<br> +234-9058483487</b></p>
                     </div>
                 </div>
@@ -106,12 +109,16 @@
                 <div class="col-lg-8 col-md-10 col-12">                    
                     <div class="section-title">
                         <h2>SALESPROF<span></span></h2>
-                        <p>SALESPROF is a company registered as a wholly for services such as Sales and Marketing Management, Sales Promotion, Distribution and Consultancy and have massively excelled in its qualitative services since its registration as a business in recent times. </p>
+                        <p>We are salesprof,
+                            we mean sales and marketing growth,
+                            we mean profitability,
+                            we got you covered with all our services,
+                            we mean product development and promotion,
+                            we take the burden while you take the profit and growth.
+                        </p>
 
                         <br><br>
-                        <p>
-                            The development of our service delivery has been carefully structured to guarantee maximum job satisfaction at all time by our seasoned staff as professionalism is maintained on every job executed.
-                        </p>
+
                     </div>
                 </div>
             </div>
@@ -199,7 +206,8 @@
                         </div>
                         <div class="col-9">                                
                             <h3>Sales and Marketing Management</h3>
-                            <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
+                            <p>We offer good plans, we find answers and solve problems while we get inspired by our result delivery.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +220,7 @@
                         </div>
                         <div class="col-9">                                
                             <h3>Sales Promotion</h3>
-                            <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
+                            <p>We know, recognise and have all the tools needed to make your product a household and official name accross leaps and bounds, having a very good relationship with media houses, a very productive social media presence and in-house promotional specialists for effective services and promotional delivery.</p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +233,8 @@
                         </div>
                         <div class="col-9">                                
                             <h3>Distribution</h3>
-                            <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
+                            <p>We have our customer base cut accross all markets and sector in all the geo political zones of Nigeria, africa and other countries of the world (we have stronger business interests in Asia). we have all the resources to serve your demands.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -238,7 +247,8 @@
                         </div>
                         <div class="col-9">                                
                             <h3>Consultancy </h3>
-                            <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
+                            <p>We offer  operational improvement, Sales and marketing advice. our consulting service is full fledged and result oriented because we have been here for a very long time and our results speak for us, we also have a young, skillful, exciting, dynamic and experienced team waiting to add to your gains why we get inspired.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -251,7 +261,11 @@
                         </div>
                         <div class="col-9">                                
                             <h3>Other areas</h3>
-                            <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
+                            <p>we are actively involved in real estate development (we buy, sell, develop and Market).
+                                Oil and Gas (We have very experienced and skillful team of oil and gas Marketers who have proven them selves over time and again)
+                                By virtue of our position as a Sales and Marketing firm, we carry along all activities that have to do with selling and hence always happy to serve you accordingly.
+                                we also provide trained bar, on trade and open market promoters and merchandisers. we got you covered on any of our services and dwe offer you maximum results.
+                            </p>
                         </div>
                     </div>
                 </div>

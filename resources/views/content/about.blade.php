@@ -54,7 +54,26 @@
 
     <!-- Start: Our skill
     ============================= -->
-    <section id="what-we-do" class="section-padding">
+    <section id="what-we-do" class="section-padding-top">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 mb-lg-0 mb-5">
+                    <div class="what-we-do">
+                        <h2>OUR VISION</h2>
+                        <hr class="devider">
+                        <p>To be the first global sales and marketing firm that can profer solutions to all sectors and stamp our name in all nations. we want our second name to be "Result"
+
+                            </p>
+                    </div>
+                </div>
+              
+            </div>
+
+        </div>
+    </section>
+
+    <section id="what-we-do" class="section-padding-top">
         <div class="container">
 
             <div class="row">
@@ -64,17 +83,17 @@
                         <hr class="devider">
                         <p>To build and retain a high profile clientele through effective and efficient delivery of satisfactory services as a basis for quality management at all times: based on professionalism, expertise and dedication to duty.
 
-                            </p>
-                        <a href="/contact-us" class="boxed-btn">CONTACT US</a>
+                        </p>
                     </div>
+
                 </div>
-              
+
             </div>
 
         </div>
     </section>
 
-    <section id="what-we-do" class="section-padding">
+    <section id="what-we-do" class="section-padding-top">
             <div class="container">
     
                 <div class="row">
@@ -82,7 +101,8 @@
                         <div class="what-we-do">
                             <h2>OUR MANAGEMENT TEAM</h2>
                             <hr class="devider">
-                            <p>Being a young company, the dedicated and vibrant staffs’ dedication over the year has also ensured our growth as a team for this progressive Enterprise and we are ably led by .     
+                            <p>Being a young company, the dedicated and vibrant staff's dedication over the years has also ensured our growth as a team for this progressive enterprise and we are ably led by;
+                                <br /><br />
                             </p>
 
                             <ul>
@@ -90,15 +110,20 @@
                                 <li>POSITION:		MANAGING DIRECTOR/CEO</li>
                                 <li>NATIONALITY:		NIGERIAN</li>                          
                             </ul>
+                            <br /><br />
 
 
 
-                            <p>                          
-                                Michael Inah holds a bachelor’s degree (BSc) in Computer Science from a prestigious University.  His versatility in the distribution and marketing business has been of great value to the Enterprise. </p>
-                                <br><br>
-                                <p> He worked at the GSK Consumers Plc. and UAC Foods Limited between the periods of 2010 – 2016 as a very key account officer. He later proceeded to join Natures Goodness Limited sometime in October, 2016 where he worked as a Regional Sales Manager. </p>
-                                <br><br>
-                                <p>He proceeded to Lagos Business School for further studies and experience where the obtained a Certificate in Account Management.  He has shown he has experience in accounting as well as Sales Manager and has all the capacity and acumen to ensure qualitative services to the businesses’ teeming customers</p>
+                           <p>
+                               Mike Inah holds a bachelor's degree in Computer Science from a very prestigious University. his versatility in the distribution and marketing business has been of great value to the enterprise.
+                               He have been actively involved in Sales delopment, planning and operations at very different levels, different
+                               companies and at different times (key account manager, Distributor support, project manager and Sales manager).
+                               <br /><br />
+                               His experience have always shown in every organisation he's involved in.
+                               He has a certificate in Account Management from the Lagos Business School.
+                               He has all the capacity and acumen to ensure qualitative services to the business.
+
+                           </p>
                         </div>
                     </div>
                        <div class="col-lg-6">

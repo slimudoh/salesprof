@@ -29,17 +29,17 @@
             <div class="row">
                 <div class="col-lg-9 col-md-12 text-lg-left mb-2 mb-lg-0">
                     <ul class="header-info d-inline-block">
-                        <li><a href="#"><i class="fas fa-phone"></i>+234-7038295419, +234-9058483487
+                        <li><a href="tel:+234-7038295419"><i class="fas fa-phone"></i>+234-7038295419, +234-9058483487
                             </a></li>
-                        <li><a href="#"><i class="fas fa-envelope"></i>mickey64all@gmail.com</a></li>
+                        <li><a href="mailto:info@salesprof.com.ng"><i class="fas fa-envelope"></i>info@salesprof.com.ng</a></li>
                         {{-- <li><a href="#"><i class="fas fa-question"></i>Ask Your Question</a></li> --}}
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-12 text-center text-lg-right mb-lg-0 mb-1">
                     <ul class="header-social d-inline-block">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com/salesprof" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.twitter.com/salesprofoffic1" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/salesprof " target="_blank"><i class="fab fa-instagram"></i></a></li>
                         {{-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> --}}
                     </ul>                    
                 </div>
@@ -189,16 +189,15 @@
                         </div>
                         <p>SALESPROF is a company registered as a wholly for services such as Sales and Marketing Management, Sales Promotion, Distribution and Consultancy.</p>
                         <ul class="widget-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>                        
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/salesprof" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.twitter.com/salesprofoffic1" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/salesprof " target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>                        
                     </aside>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
                     <aside class="widget widget_links">
-                        <h4 class="widget-title">Usefull Links</h4>
+                        <h4 class="widget-title">Company</h4>
                         <ul>
                                 <li class="active">
                                         <a href="/">Home</a>
@@ -242,12 +241,14 @@
                     <aside class="widget widget_contact">
                         <h4 class="widget-title">Contact information</h4>
                         <ul>
-                            <li><i class="fas fa-map-marker"></i>6B, ATLANTIC BOULEVARD OCEAN BAY ESTATE, 
-                                OFF ORCHID HOTEL ROAD, 
-                                LEKKI, 
-                                LAGOS.
-                                </li>
-                            <li><i class="fas fa-envelope"></i>mickey64all@gmail.com</li>
+                            <li><i class="fas fa-map-marker"></i>2, Osho Street,
+                                <br />
+                                Opebi(Near Adebola House Roundabout)
+                                <br />
+                                Ikeja, <br/>Lagos
+
+                            </li>
+                            <li><i class="fas fa-envelope"></i>info@salesprof.com.ng</li>
                             <li><i class="fas fa-phone"></i>+234-7038295419, +234-9058483487</li>
                         </ul>
                         {{-- <form class="#" action="#">
@@ -269,7 +270,7 @@
     <section id="footer-copyright">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12 text-lg-left text-center mb-lg-0 mb-3 copyright-text"><p>Copyrights © 2018 All Rights Reserved, Softprof.</p></div>
+                <div class="col-lg-6 col-12 text-lg-left text-center mb-lg-0 mb-3 copyright-text"><p>Copyrights ©<?php echo date("Y"); ?> All Rights Reserved, Salesprof.</p></div>
                 {{-- <div class="col-lg-6 col-12">
                     <ul class="text-lg-right text-center payment-method">
                         <li><a href="#"><i class="fab fa-paypal"></i></a></li>

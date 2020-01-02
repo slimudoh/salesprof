@@ -1016,15 +1016,18 @@ header {
 }
 
 .header-slider .owl-dot:nth-child(1) {
-    background: url(../img/sliders/dots/slider-dot-01.png);
+    /*background: url(../img/sliders/dots/slider-dot-01.png);*/
+    background-color: #fff;
 }
 
 .header-slider .owl-dot:nth-child(2) {
-    background: url(../img/sliders/dots/slider-dot-02.png);
+    /*background: url(../img/sliders/dots/slider-dot-02.png);*/
+    background-color: #fff;
 }
 
 .header-slider .owl-dot:nth-child(3) {
-    background: url(../img/sliders/dots/slider-dot-03.png);
+    /*background: url(../img/sliders/dots/slider-dot-03.png);*/
+    background-color: #fff;
 }
 
 /*
