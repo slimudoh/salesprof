@@ -25,4 +25,8 @@ Route::get('/our-logistics', 'HomeController@training')->name('training');
 
 Route::get('/contact-us', 'HomeController@contact')->name('contact');
 
+Route::post('/sent-mail', 'HomeController@mail')->name('sendmail');
+
+Route::get('/success-mail', 'HomeController@success')->name('mailsuccess');
+
 Route::get('/admin', 'AdminController@admin')->name('admin');

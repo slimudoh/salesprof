@@ -37,17 +37,21 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 mb-md-0 mb-5 single-box text-center">
                    <img src="{{ asset('img/icons/address.png')}}" alt="">
                     <h3>Address</h3>
-                    <p>450 Fifth Avenue, 31th floor New York <br> NY 10118-3299 USA</p>
+                    <p>2, Osho Street,
+                        <br>
+                        Opebi (Near Adebola House Roundabout)
+                        <br>
+                        Ikeja, Lagos<br> </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 mb-md-0 mb-5 single-box text-center">
                    <img src="{{ asset('img/icons/mail.png')}}" alt="">
                     <h3>E-mail</h3>
-                    <p>info@website.com <br>contact@website.com</p>
+                    <p>info@salesprof.com.ng</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 single-box text-center">
                    <img src="{{ asset('img/icons/phone.png')}}" alt="">
                     <h3>Phone</h3>
-                    <p>+001 989 159 081, <br>+002 167 427 7542</p>
+                    <p>+234-7038295419,  <br>+234-9058483487</p>
                 </div>
             </div>
         </div>
@@ -60,6 +64,8 @@
     ============================= -->
     
     <section id="send-message">
+        <form method="post" action="/sent-mail">
+            {{csrf_field()}}
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-2 order-2 order-md-2">
@@ -69,19 +75,19 @@
                     <h3>Send Us a Message</h3>
                     <div class="row">
                         <div class="col-lg-6 form-group">
-                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" class="form-control" name="fname" placeholder="Your Name">
                         </div>
                         <div class="col-lg-6 form-group">
-                            <input type="email" class="form-control" placeholder="Your Email">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email">
                         </div>
                         <div class="col-lg-6 form-group">
-                            <input type="text" class="form-control" placeholder="Phone" required>
+                            <input type="text" class="form-control" name="phone" placeholder="Phone" required>
                         </div>
                         <div class="col-lg-6 form-group">
-                            <input type="email" class="form-control" placeholder="Subject">
+                            <input type="email" class="form-control" name="subject" placeholder="Subject">
                         </div>
                         <div class="col-sm-12 form-group">
-                            <textarea class="form-control" rows="3" placeholder="Your Mesage"></textarea>
+                            <textarea class="form-control" rows="3" name="message" placeholder="Your Mesage"></textarea>
                         </div>
                         <button class="boxed-btn">Send Us a Message</button>
                     </div>
@@ -91,6 +97,7 @@
                     </div>
             </div>
         </div>
+        </form>
     </section>
 
     <!-- End: Contact Info
