@@ -1,14 +1,15 @@
 <body>
+  <p>You have a new message from a user on Salesprof:</p>
 <p>
-    Name: {{$fname}}
+    <strong>Name: </strong> {{$fname}}
 </p>
 <p>
-    Email: {{$email}}
+    <strong>Email:</strong> {{$email}}
 </p>
 <p>
-    Phone: {{$phone}}
+    <strong>Phone:</strong> {{$phone}}
 </p>
 <p>
-    Message: {{$msg}}
+    <strong>Message:</strong> {{$msg}}
 </p>
 </body>

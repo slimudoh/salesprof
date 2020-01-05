@@ -51,7 +51,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 single-box text-center">
                    <img src="{{ asset('img/icons/phone.png')}}" alt="">
                     <h3>Phone</h3>
-                    <p>+234-7038295419,  <br>+234-9058483487</p>
+                    <p>+234-01-4536071,<br> +234-8090507675</p>
                 </div>
             </div>
         </div>

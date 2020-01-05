@@ -45,7 +45,7 @@ class HomeController extends Controller
 
         Mail::send('emails.mail', $data, function ($m) use ($data) {
             $m->from($data['email'], $data['fname']);
-            $m->to("slimudoh@gmail.com", "slim")->subject('New Message!');
+            $m->to("contact.salesprof@gmail.com", "Salesprof web")->subject('New Message for Salesprof!');
         });
         return redirect('success-mail');
     }

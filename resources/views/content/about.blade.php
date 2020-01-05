@@ -33,12 +33,12 @@
                 <div class="col-lg-12 mb-lg-0 mb-5">
 
                     <div class="section-title section-before-border">
-                        <h2>OUR PROFILE  </h2>                      
-                      
+                        <h2>OUR PROFILE  </h2>
+
                     </div>
 
                     <div class="section-info">
-                        <p>SALESPROF is a company registered as a wholly for services such as Sales and Marketing Management, Sales Promotion, Distribution and Consultancy and have massively excelled in its qualitative services since its registration as a business in recent times. </p>
+                        <p>SALESPROF is a company registered wholly for services such as Sales and Marketing Management, Sales Promotion, Distribution and Consultancy and have massively excelled in its qualitative services since its registration as a business in recent times. </p>
                         <br>
                         <p>The development of our service delivery has been carefully structured to guarantee maximum job satisfaction at all time by our seasoned staff as professionalism is maintained on every job executed.</p>
                     </div>
@@ -67,7 +67,7 @@
                             </p>
                     </div>
                 </div>
-              
+
             </div>
 
         </div>
@@ -95,7 +95,7 @@
 
     <section id="what-we-do" class="section-padding-top">
             <div class="container">
-    
+
                 <div class="row">
                     <div class="col-lg-6 mb-lg-0 mb-5">
                         <div class="what-we-do">
@@ -108,7 +108,7 @@
                             <ul>
                                 <li>NAME:		        MR. MICHAEL INAH</li>
                                 <li>POSITION:		MANAGING DIRECTOR/CEO</li>
-                                <li>NATIONALITY:		NIGERIAN</li>                          
+                                <li>NATIONALITY:		NIGERIAN</li>
                             </ul>
                             <br /><br />
 
@@ -129,9 +129,9 @@
                        <div class="col-lg-6">
                    <img src="{{ asset('img/mockup.png')}}" alt="">
                 </div>
-                  
+
                 </div>
-    
+
             </div>
         </section>
     <!-- End: Our skill
@@ -140,9 +140,9 @@
      <!-- Start: Our Features
     ============================= -->
     {{-- <section id="ourfeatures" class="section-padding">
-        <div class="container">            
+        <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-10 col-12">                    
+                <div class="col-lg-8 col-md-10 col-12">
                     <div class="section-title">
                         <h2>Our Features <span></span></h2>
                         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</p>
@@ -158,7 +158,7 @@
                                <img src="{{ asset('img/features-icon/features-icon01.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Business Growth</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -171,7 +171,7 @@
                                <img src="{{ asset('img/features-icon/features-icon02.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Sustainability</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -184,7 +184,7 @@
                                <img src="{{ asset('img/features-icon/features-icon03.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Performance</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -197,7 +197,7 @@
                                <img src="{{ asset('img/features-icon/features-icon04.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Organization</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -210,7 +210,7 @@
                                <img src="{{ asset('img/features-icon/features-icon05.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Saving Strategy</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -223,7 +223,7 @@
                                <img src="{{ asset('img/features-icon/features-icon06.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Retirement Planning</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -236,7 +236,7 @@
                                <img src="{{ asset('img/features-icon/features-icon01.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Retirement Planning</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -249,7 +249,7 @@
                                <img src="{{ asset('img/features-icon/features-icon02.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Business Growth</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -262,7 +262,7 @@
                                <img src="{{ asset('img/features-icon/features-icon03.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-9">                                
+                        <div class="col-9">
                             <h3>Business Growth</h3>
                             <p>There are many variations passages of Lorem Ipsum available but the abo majority have suffered.</p>
                         </div>
@@ -289,8 +289,8 @@
                     <div class="section-title">
                         <h2>Creative Team <span></span></h2>
                         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</p>
-                    </div>                    
-                </div>                
+                    </div>
+                </div>
             </div>
 
             <div class="row">
