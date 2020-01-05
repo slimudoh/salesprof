@@ -30,7 +30,7 @@
 
     <!-- Start: Contact Info
     ============================= -->
-    
+
     <section id="contact-info" class="section-padding-100">
         <div class="container">
             <div class="row">
@@ -62,7 +62,7 @@
 
     <!-- Start: Contact Info
     ============================= -->
-    
+
     <section id="send-message">
         <form method="post" action="/sent-mail">
             {{csrf_field()}}
@@ -84,10 +84,10 @@
                             <input type="text" class="form-control" name="phone" placeholder="Phone" required>
                         </div>
                         <div class="col-lg-6 form-group">
-                            <input type="email" class="form-control" name="subject" placeholder="Subject">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject">
                         </div>
                         <div class="col-sm-12 form-group">
-                            <textarea class="form-control" rows="3" name="message" placeholder="Your Mesage"></textarea>
+                            <textarea class="form-control" rows="3" name="msg" placeholder="Your Mesage"></textarea>
                         </div>
                         <button class="boxed-btn">Send Us a Message</button>
                     </div>

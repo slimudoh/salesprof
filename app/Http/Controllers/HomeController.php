@@ -45,9 +45,9 @@ class HomeController extends Controller
 
         Mail::send('emails.mail', $data, function ($m) use ($data) {
             $m->from($data['email'], $data['fname']);
-            $m->to("slimudoh@yahoo.com", "slim")->subject('New Message!');
+            $m->to("slimudoh@gmail.com", "slim")->subject('New Message!');
         });
-        return redirect('mailsuccess');
+        return redirect('success-mail');
     }
 
     public function success()
@@ -56,4 +56,3 @@ class HomeController extends Controller
     }
 
 }
-

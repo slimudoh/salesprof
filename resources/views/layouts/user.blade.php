@@ -25,11 +25,11 @@
 <body>
     <section id="header-top">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-lg-9 col-md-12 text-lg-left mb-2 mb-lg-0">
                     <ul class="header-info d-inline-block">
-                        <li><a href="tel:+234-7038295419"><i class="fas fa-phone"></i>+234-7038295419, +234-9058483487
+                        <li><a href="tel:+234-7038295419"><i class="fas fa-phone"></i>+234-01-4536071, +234-8090507675
                             </a></li>
                         <li><a href="mailto:info@salesprof.com.ng"><i class="fas fa-envelope"></i>info@salesprof.com.ng</a></li>
                         {{-- <li><a href="#"><i class="fas fa-question"></i>Ask Your Question</a></li> --}}
@@ -41,7 +41,7 @@
                         <li><a href="https://www.twitter.com/salesprofoffic1" target="_blank"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/salesprof " target="_blank"><i class="fab fa-instagram"></i></a></li>
                         {{-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> --}}
-                    </ul>                    
+                    </ul>
                 </div>
             </div>
         </div>
@@ -67,36 +67,36 @@
                             <ul>
                                     @if (isset($name))
                                         @if ($name == "home")
-                                            <li class="active"><a href="/">Home</a></li>                                      
+                                            <li class="active"><a href="/">Home</a></li>
                                         @else
-                                            <li><a href="/">Home</a></li> 
+                                            <li><a href="/">Home</a></li>
                                         @endif
 
                                         @if ($name == "about")
-                                        <li class="active"><a href="/about-us">About Us</a></li>                                   
+                                        <li class="active"><a href="/about-us">About Us</a></li>
                                         @else
                                         <li><a href="/about-us">About Us</a></li>
                                         @endif
 
                                         @if ($name == "service")
-                                        <li class="active"><a href="/our-services">Our Services</a></li>                                
+                                        <li class="active"><a href="/our-services">Our Services</a></li>
                                         @else
                                         <li><a href="/our-services">Our Services</a></li>
                                         @endif
 
                                         @if ($name == "train")
-                                        <li class="active"><a href="/our-logistics">Logistics</a></li>                                      
+                                        <li class="active"><a href="/our-logistics">Logistics</a></li>
                                         @else
                                         <li><a href="/our-logistics">Logistics</a></li>
                                         @endif
 
                                         @if ($name == "contact")
-                                        <li class="active"><a href="/contact-us">Contact</a></li>                                 
+                                        <li class="active"><a href="/contact-us">Contact</a></li>
                                         @else
                                         <li><a href="/contact-us">Contact</a></li>
-                                        @endif                                     
+                                        @endif
                                     @else
-                                        <li><a href="/">Home</a></li> 
+                                        <li><a href="/">Home</a></li>
                                         <li><a href="/about-us">About Us</a></li>
                                         <li><a href="/our-services">Our Services</a></li>
                                         <li><a href="/our-logistics">Logistics</a></li>
@@ -125,36 +125,36 @@
                                     <ul>
                                         @if (isset($name))
                                             @if ($name == "home")
-                                                <li class="active"><a href="/">Home</a></li>                                      
+                                                <li class="active"><a href="/">Home</a></li>
                                             @else
-                                                <li><a href="/">Home</a></li> 
+                                                <li><a href="/">Home</a></li>
                                             @endif
-        
+
                                             @if ($name == "about")
-                                            <li class="active"><a href="/about-us">About Us</a></li>                                   
+                                            <li class="active"><a href="/about-us">About Us</a></li>
                                             @else
                                             <li><a href="/about-us">About Us</a></li>
                                             @endif
-        
+
                                             @if ($name == "service")
-                                            <li class="active"><a href="/our-services">Our Services</a></li>                                
+                                            <li class="active"><a href="/our-services">Our Services</a></li>
                                             @else
                                             <li><a href="/our-services">Our Services</a></li>
                                             @endif
-        
+
                                             @if ($name == "train")
-                                            <li class="active"><a href="/our-logistics">Logistics</a></li>                                      
+                                            <li class="active"><a href="/our-logistics">Logistics</a></li>
                                             @else
                                             <li><a href="/our-logistics">Logistics</a></li>
                                             @endif
-        
+
                                             @if ($name == "contact")
-                                            <li class="active"><a href="/contact-us">Contact</a></li>                                 
+                                            <li class="active"><a href="/contact-us">Contact</a></li>
                                             @else
                                             <li><a href="/contact-us">Contact</a></li>
-                                            @endif  
+                                            @endif
                                         @else
-                                            <li><a href="/">Home</a></li> 
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="/about-us">About Us</a></li>
                                             <li><a href="/our-services">Our Services</a></li>
                                             <li><a href="/our-logistics">Logistics</a></li>
@@ -162,14 +162,14 @@
                                         @endif
                                     </ul>
                                 </nav>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- End Mobile Menu -->
-        </div>        
+        </div>
     </section>
     <!-- End: Navigation
     ============================= -->
@@ -192,7 +192,7 @@
                             <li><a href="https://www.facebook.com/salesprof" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="https://www.twitter.com/salesprofoffic1" target="_blank"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="https://www.instagram.com/salesprof " target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul>                        
+                        </ul>
                     </aside>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-lg-0 mb-4">
@@ -249,7 +249,7 @@
 
                             </li>
                             <li><i class="fas fa-envelope"></i>info@salesprof.com.ng</li>
-                            <li><i class="fas fa-phone"></i>+234-7038295419, +234-9058483487</li>
+                            <li><i class="fas fa-phone"></i>+234-01-4536071, +234-8090507675</li>
                         </ul>
                         {{-- <form class="#" action="#">
                             <input type="text" placeholder="Enter your email">
@@ -286,7 +286,7 @@
 
     <!-- End: Footer Copyright
     ============================= -->
-    
+
     <!-- Scripts -->
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/popper.min.js') }}"></script>
@@ -303,14 +303,14 @@
     <!-- Smooth Scroll -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    
+
     <!-- Map Script -->
 <!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqoWGSQYygV-G1P5tVrj-dM2rVHR5wOGY"></script>
     <script src="assets/js/map-script.js"></script>
  -->
     <!-- Custom Script -->
     <script src="{{ asset('js/custom.js') }}"></script>
-    
+
 </body>
 
 </html>
