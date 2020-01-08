@@ -16,12 +16,8 @@
         </div>
     </section>
 
-    <!-- End: Breadcrumb Area
-    ============================= -->
 
-
-    <!-- Start: 404
-    ============================= -->
+    
 
     <section id="page-404" class="section-padding-100">
         <div class="container">
@@ -35,8 +31,5 @@
             </div>
         </div>
     </section>
-
-    <!-- End: 404
-    ============================= -->
 
 @endsection

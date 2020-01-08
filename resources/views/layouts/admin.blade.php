@@ -24,23 +24,7 @@
 <body>
 
 
-    <!-- Start: Preloader
-    ============================= -->
-
-   <!--  <div class="preloader">
-        <div class="loader">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div> -->
-
-    <!-- End: Preloader
-    ============================= -->
-
-    <!-- Start: Header Top
-    ============================= -->
+   
     <section id="header-top">
         <div class="container">
             
@@ -63,11 +47,7 @@
             </div>
         </div>
     </section>
-    <!-- End: Header Top
-    ============================= -->
-
-    <!-- Start: Search
-    ============================= -->
+  
 
     <div id="search">
         <a href="#" id="close-btn">
@@ -79,11 +59,7 @@
         </div>
     </div>
 
-    <!-- End: Search
-    ============================= -->
-
-    <!-- Start: Navigation
-    ============================= -->
+  
     <section class="navbar-wrapper">
         <div class="navbar-area sticky-nav">
             <div class="container">
@@ -332,12 +308,7 @@
             <!-- End Mobile Menu -->
         </div>        
     </section>
-    <!-- End: Navigation
-    ============================= -->
-
-
-    <!-- Start: Header Slider
-    ============================= -->
+    
     <header>
         <div class="row">
             <div class="col-md-12">
@@ -389,12 +360,7 @@
         </div>
     </header>
 
-    <!-- End: Header Slider
-    ============================= -->
-
-
-    <!-- Start: Contact
-    ============================= -->
+   
     <section id="contact">
         <div class="container contact-wrapper text-center text-lg-left">
             <div class="">
@@ -415,12 +381,7 @@
             </div>
         </div>
     </section>
-    <!-- End: Contact
-    ============================= -->
-
-
-    <!-- Start: Service
-    ============================= -->
+    
     <section id="our-service" class="section-padding">
         <div class="container">
             <div class="row">
@@ -490,12 +451,7 @@
             </div>
         </div>
     </section>
-    <!-- End: Service
-    ============================= -->
-
-
-     <!-- Start: Our Features
-    ============================= -->
+   
     <section id="ourfeatures" class="section-padding">
         <div class="container">            
             <div class="row">
@@ -633,13 +589,7 @@
             </div>
         </div>
     </section>
-    <!-- End: Our Features
-    ============================= -->
-
-
-
-    <!-- Start: Latest Projects
-    ============================= -->
+   
 
     <section id="latest-projects" class="section-padding project-masonary">
         <div class="container">
@@ -741,12 +691,7 @@
         </div>
     </section>
 
-    <!-- End: Latest Projects
-    ============================= -->
-
-
-    <!-- Start: Projects Future
-    ============================= -->
+   
 
     <section id="projects-fututre" class="section-padding">
         <div class="container">
@@ -827,13 +772,7 @@
         </div>
     </section>
 
-    <!-- End: Projects Future
-    ============================= -->
-
-
-
-    <!-- Start: Our Gallery
-    ============================= -->
+   
 
     <section id="our-gallery" class="section-padding-top">
         <div class="container">
@@ -915,12 +854,7 @@
         </div>
     </section>
 
-    <!-- End: Our Gallery
-    ============================= -->
-
-    <!-- Start: Call to action
-    ============================= -->
-
+   
     <section id="cta">
         <div class="container">
             <div class="row cta">
@@ -935,11 +869,7 @@
         </div>
     </section>  
 
-    <!-- End: Call to action
-    ============================= -->
-
-    <!-- Start: Pricing
-    ============================= -->
+  
 
     <section id="pricing" class="section-padding">
         <div class="container">
@@ -1002,11 +932,7 @@
             </div>
         </div>
     </section>
-    <!-- End: Pricing
-    ============================= -->
-
-    <!-- Start: Testimonial
-    ============================= -->
+   
 
     <section id="testimonial" class="section-padding">
         <div class="container">
@@ -1086,11 +1012,7 @@
         </div>
     </section>
 
-    <!-- End: Testimonial
-    ============================= -->
-
-    <!-- Start: Creative Team
-    ============================= -->
+    
 
     <section id="team" class="section-padding-top mb-5">
         <div class="container">
@@ -1192,11 +1114,7 @@
         </div>
     </section>
 
-    <!-- End:  Creative Team
-    ============================= -->
-
-    <!-- Start: Fun Fact
-    ============================= -->
+    
 
     <section id="fun-fact" class="section-padding-top">
         <div class="container">
@@ -1225,11 +1143,7 @@
         </div>
     </section>
 
-    <!-- End:  Fun Fact
-    ============================= -->
-
-    <!-- Start: Latest News
-    ============================= -->
+   
 
     <section id="latest-news" class="section-padding">
         <div class="container">
@@ -1314,11 +1228,7 @@
         </div>
     </section>
 
-    <!-- End:  Latest News
-    ============================= -->
-    
-    <!-- Start: Our Client
-    ============================= -->
+   
     <section id="our-partners">
         <div class="container">
             <div class="row">
@@ -1355,11 +1265,7 @@
 
         </div>
     </section>
-    <!-- End: Our Client
-    ============================= -->
-
-    <!-- Start: Footer Sidebar
-    ============================= -->
+  
     <footer id="footer-widgets">
         <div class="container">
 
@@ -1440,11 +1346,7 @@
 
         </div>
     </footer>
-    <!-- End: Footer Sidebar
-    ============================= -->
-
-    <!-- Start: Footer Copyright
-    ============================= -->
+   
 
     <section id="footer-copyright">
         <div class="container">
@@ -1463,8 +1365,7 @@
         </div>
     </section>
 
-    <!-- End: Footer Copyright
-    ============================= -->
+  
     
     <!-- Scripts -->
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>

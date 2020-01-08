@@ -39,18 +39,14 @@
                     <ul class="header-social d-inline-block">
                         <li><a href="https://www.facebook.com/salesprof" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://www.twitter.com/salesprofoffic1" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/salesprof " target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/salesprofofficial " target="_blank"><i class="fab fa-instagram"></i></a></li>
                         {{-- <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> --}}
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End: Header Top
-    ============================= -->
-
-    <!-- Start: Navigation
-    ============================= -->
+   
     <section class="navbar-wrapper">
         <div class="navbar-area sticky-nav">
             <div class="container">
@@ -171,13 +167,11 @@
             <!-- End Mobile Menu -->
         </div>
     </section>
-    <!-- End: Navigation
-    ============================= -->
+    
 
     @yield('content')
 
-    <!-- Start: Footer Sidebar
-    ============================= -->
+  
     <footer id="footer-widgets">
         <div class="container">
 
@@ -191,7 +185,7 @@
                         <ul class="widget-social">
                             <li><a href="https://www.facebook.com/salesprof" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="https://www.twitter.com/salesprofoffic1" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/salesprof " target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/salesprofofficial " target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </aside>
                 </div>
@@ -261,11 +255,6 @@
 
         </div>
     </footer>
-    <!-- End: Footer Sidebar
-    ============================= -->
-
-    <!-- Start: Footer Copyright
-    ============================= -->
 
     <section id="footer-copyright">
         <div class="container">
@@ -284,10 +273,7 @@
         </div>
     </section>
 
-    <!-- End: Footer Copyright
-    ============================= -->
-
-    <!-- Scripts -->
+   
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/popper.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js')}}"></script>

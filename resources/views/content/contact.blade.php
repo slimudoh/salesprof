@@ -7,8 +7,7 @@
 <title>Salesprof - Contact Us</title>
 
 @section('content')
-    <!-- Start: Breadcrumb Area
-    ============================= -->
+  
 
     <section id="breadcrumb-area">
         <div class="container">
@@ -24,12 +23,7 @@
         </div>
     </section>
 
-    <!-- End: Breadcrumb Area
-    ============================= -->
-
-
-    <!-- Start: Contact Info
-    ============================= -->
+    
 
     <section id="contact-info" class="section-padding-100">
         <div class="container">
@@ -57,11 +51,7 @@
         </div>
     </section>
 
-    <!-- End: Contact Info
-    ============================= -->
-
-    <!-- Start: Contact Info
-    ============================= -->
+    
 
     <section id="send-message">
         <form method="post" action="/sent-mail">
@@ -100,6 +90,5 @@
         </form>
     </section>
 
-    <!-- End: Contact Info
-    ============================= -->
+    
 @endsection

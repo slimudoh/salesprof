@@ -22,12 +22,7 @@
         </div>
     </section>
 
-    <!-- End: Breadcrumb Area
-    ============================= -->
-
-
-    <!-- Start: Service
-    ============================= -->
+   
     <section id="our-service" class="section-padding">
         <div class="container">
             <div class="row">
@@ -191,42 +186,4 @@
         </div>
         </div>
     </section>
-    <!-- End: Service
-    ============================= -->
-
-    <!-- Start: Fun Fact
-    ============================= -->
-    {{--
-        <section id="fun-fact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 single-box light-bg bb">
-                       <img src="{{ asset('img/fun-fact/note.png')}}" alt="">
-                        <h3><span class="counter">1845</span></h3>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 single-box dark-bg bb">
-                       <img src="{{ asset('img/fun-fact/people.png')}}" alt="">
-                        <h3><span class="counter">146</span></h3>
-                        <p>Team Members</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12  single-box light-bg">
-                       <img src="{{ asset('img/fun-fact/face.png')}}" alt="">
-                        <h3><span class="counter">1246</span></h3>
-                        <p>Happy Customers</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12  single-box dark-bg">
-                       <img src="{{ asset('img/fun-fact/cup.png')}}" alt="">
-                        <h3><span class="counter">2416</span></h3>
-                        <p>Cups Of Coffee</p>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-    <!-- End:  Fun Fact
-    ============================= -->
-
-
-
 @endsection

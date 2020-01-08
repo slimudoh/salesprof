@@ -7,9 +7,7 @@
     <title>Salesprof - Contact Us</title>
 
 @section('content')
-    <!-- Start: Breadcrumb Area
-    ============================= -->
-
+   
     <section id="breadcrumb-area">
         <div class="container">
             <div class="row">
@@ -24,8 +22,6 @@
         </div>
     </section>
 
-    <!-- End: Breadcrumb Area
-    ============================= -->
 
     <section id="contact-info" style="padding-top: 50px;font-size: 30px;">
         <div class="container">
@@ -40,8 +36,6 @@
     </section>
 
 
-    <!-- Start: Contact Info
-    ============================= -->
 
     <section id="contact-info" class="section-padding-100">
         <div class="container">
@@ -63,17 +57,10 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 single-box text-center">
                     <img src="{{ asset('img/icons/phone.png')}}" alt="">
                     <h3>Phone</h3>
-                    <p>+234-7038295419,  <br>+234-9058483487</p>
+                      <p>+234-01-4536071,<br> +234-8090507675</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- End: Contact Info
-    ============================= -->
-
-    <!-- Start: Contact Info
-    ============================= -->
-    <!-- End: Contact Info
-    ============================= -->
 @endsection

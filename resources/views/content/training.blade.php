@@ -24,11 +24,7 @@
         </div>
     </section>
 
-    <!-- End: Breadcrumb Area
-    ============================= -->
-
-    <!-- Start: Portfolio 3 Column
-    ============================= -->
+  
  
     <section id="what-we-do" class="section-padding">
             <div class="container">
@@ -69,14 +65,5 @@
         
                 </div>
             </section>
-    <!-- End: Portfolio
-    ============================= -->
-
-    <!-- Start: Excluesive
-    ============================= -->
-  
-    <!-- End: Excluesive
-    ============================= -->
-
 
 @endsection
